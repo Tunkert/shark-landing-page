@@ -1,0 +1,48 @@
+#hero {
+	background-image: url('./images/shark-hero.jpg');
+	min-height: 650px;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#hero h1 {
+	color: #8a0303;
+	font-weight: bold;
+	font-size: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+#hero p {
+	color: #8a0303;
+	font-weight: bold;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+#hero .btn-danger, .navbar .btn-danger {
+	background-color: #8a0303 !important;
+}
+
+#hero .btn-danger:hover {
+	background-color: #8c1404 !important;
+}
+
+#hero .btn-danger:active {
+	transform: scale(0.98) !important;
+}
+
+#learn-more .container {
+	margin: 3% auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
